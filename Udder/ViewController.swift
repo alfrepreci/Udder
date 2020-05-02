@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     override func updateTextAttributes(conversionHandler: ([NSAttributedString.Key : Any]) -> [NSAttributedString.Key : Any]) {
         //
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        //
+    }
 
 
 }
